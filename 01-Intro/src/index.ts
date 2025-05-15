@@ -15,6 +15,6 @@ const user: User = {
     name: "Milan",
     age: 29
 };
-console.log(user.name);
+console.log(user);
 
 
