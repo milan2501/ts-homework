@@ -93,4 +93,4 @@ function findProduct(prod: string): void {
     }
 }
 
-findProduct("monitor");
+findProduct("monitor")
