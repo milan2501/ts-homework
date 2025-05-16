@@ -69,7 +69,7 @@ function findProduct(prod: string): void {
     const resultsContainer = document.getElementById("results") as HTMLDivElement;
     if (!resultsContainer) return;
 
-    resultsContainer.innerHTML = ""; // Clear old results
+    resultsContainer.innerHTML = "";
 
     for (const i of orders) {
         if (i.product === prod) {
@@ -93,21 +93,4 @@ function findProduct(prod: string): void {
     }
 }
 
-findProduct("monitor");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+findProduct("monitor")
